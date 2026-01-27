@@ -1,0 +1,136 @@
+/* General Page Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: black;
+    background-color: white;
+    padding-left: 1in; /* Add left margin of 1 inch */
+    padding-right: 1in; /* Add right margin of 1 inch */
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: black;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: left; /* Center the name above the nav */
+    margin: 0;
+    width: 100%;
+}
+
+/* Adjust header name alignment */
+header h1 {
+    margin: 0;
+    font-size: 1.8em; /* Smaller header size */
+    margin: 0;
+    margin-left: 50px;
+    text-align: left; /* Ensure the name is centered */
+}
+
+nav {
+    width: 100%;
+    text-align: left; /* Align the nav items left */
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em; /* Smaller text */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 90%;
+    margin: 0;
+    padding-left: 0; /* Align body text with the nav */
+}
+
+/* Main Content */
+main {
+    padding: 20px 0;
+    max-width: 700px;
+    margin: 0;
+    text-align: left; /* Align the text to the left */
+}
+
+/* Align the content with the nav bar */
+main {
+    padding-left: 0; /* Ensure the main content starts from the same point */
+}
+
+/* Header Section (Body text alignment) */
+section h2 {
+    text-align: left;
+    font-size: 1.5em; /* Smaller headers */
+    margin-bottom: 10px;
+}
+
+section p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 20px; /* Slightly reduced indentation */
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Profile Picture */
+.profile-image {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+/* Footer Styling */
+footer {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+/* Image Gallery */
+.image-gallery {
+    display: flex;
+    gap: 10px; /* Add space between images */
+    flex-wrap: wrap; /* Allow images to wrap to the next line on smaller screens */
+    justify-content: center; /* Center the images within the container */
+}
+
+/* Individual Image Item */
+.image-item img {
+    max-width: 100%; /* Makes the image responsive */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 300px; /* Adjust the maximum width of the images */
+    margin: 5px; /* Adds some spacing around images */
+}
