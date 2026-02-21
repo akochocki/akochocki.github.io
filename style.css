@@ -143,9 +143,20 @@ footer {
 
 .about-image {
     flex: 0 0 260px;
+    display: flex;           /* make the container a flex column */
+    flex-direction: column;  /* stack children vertically */
+    align-items: center;     /* center children horizontally */
 }
 
 .about-image img {
     max-width: 100%;
     height: auto;
+}
+
+.about-image a {
+    display: block;        /* ensures it’s on its own line under the image */
+    margin-top: -0.3em;    /* spacing between image and email */
+    color: #555;           /* text color */
+    text-decoration: none; /* removes underline */
+    font-size: 0.98em;     /* optional: slightly smaller text */
 }
