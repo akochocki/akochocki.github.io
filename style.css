@@ -7,8 +7,8 @@ body {
     line-height: 1.6;
     color: black;
     background-color: white;
-    padding-left: 1in;
-    padding-right: 1in;
+    padding-left: 5%; /* 1 in */
+    padding-right: 5%; /* 1 in */
 }
 
 h1, h2, h3 {
@@ -28,14 +28,14 @@ header {
 header .container {
     width: 90%;
     margin: 0;
-    padding-left: 60px;  /* adjust this value to taste */
+    padding-left: 0;  /* 60 px adjust this value to taste */
 }
 
 /* Header title */
 header h1 {
     margin: 0;
     font-size: 1.8em;
-    padding-left: 85px;   /* shift only the title */
+    padding-left: 85px;   /* 85px shift only the title */
 }
 
 /* Navigation */
@@ -71,7 +71,7 @@ nav ul li a:hover {
 /* Main Content */
 main {
     padding: 20px 0;
-    max-width: 800px;
+    max-width: 100%; /* 800px */
     margin: 0;
     text-align: left;
 }
