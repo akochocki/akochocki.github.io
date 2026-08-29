@@ -186,6 +186,16 @@ footer {
         padding: 20px 0;
     }
     
+    /* Make navigation left-aligned with no extra spacing */
+    nav {
+        padding-left: 0;
+    }
+    
+    nav ul {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    
     /* Make about container stack properly */
     .about-container {
         flex-direction: column;
