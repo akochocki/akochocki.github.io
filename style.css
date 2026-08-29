@@ -177,7 +177,7 @@ footer {
     }
     
     header h1 {
-        padding-left: 15%;
+        padding-left: 0;
     }
     
     /* Ensure main content uses full width */
