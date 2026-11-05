@@ -16,6 +16,17 @@ h1, h2, h3 {
     color: black;
 }
 
+.about-container {
+    display: flex;
+    align-items: center; /* This vertically centers the text and image */
+    gap: 40px;
+}
+
+/* You still want to remove the top margin of the first paragraph */
+.about-text p:first-child {
+    margin-top: 0;
+}
+
 header {
     background-color: white;
     color: black;
